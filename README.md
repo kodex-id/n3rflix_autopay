@@ -14,5 +14,7 @@ Paste ccmu di file cc.txt dengan format
 cc|mm|yyyy|cvv
 ```
 
+Note: Edit Passwordmu di line 34
+
 Tq sgb
 
