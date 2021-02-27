@@ -1,0 +1,24 @@
+{
+  "name": "n3rflix_autopay",
+  "version": "1.0.0",
+  "description": "Netflix Auto Pay",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ahda ZI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaelahda/n3rflix_autopay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yaelahda/n3rflix_autopay/issues"
+  },
+  "homepage": "https://github.com/yaelahda/n3rflix_autopay",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "async-file": "^2.0.2",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^7.1.0"
+  }
+}
